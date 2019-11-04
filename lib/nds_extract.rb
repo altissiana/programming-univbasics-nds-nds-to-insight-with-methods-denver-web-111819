@@ -8,6 +8,8 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
     result
+    nds.each do |director|
+      director[:name]
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
