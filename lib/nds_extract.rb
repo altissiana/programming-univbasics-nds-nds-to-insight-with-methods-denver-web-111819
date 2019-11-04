@@ -7,7 +7,6 @@ require 'directors_database'
 
 def directors_totals(nds)
   result = {}
-    result
     nds.each do |director|
       director[director[:name]] = gross_for_director(director)
     end
